@@ -1,7 +1,7 @@
 import React from "react";
 
 import hand from "../../../images/hand.png";
-import girl from "../../../images/SAVE_20230715_011059-removebg-preview.png";
+import myself from "../../../images/SAVE_20230715_011059-removebg-preview.png";
 
 import CallToAction from "../../shared/CallToAction";
 import { scrollToSection } from "../../utils/helper";
@@ -28,8 +28,7 @@ const IntroContent = () => {
                     <p>
                         There are many variations of passages of Lorem Ipsum
                         available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable.
+                        some form.
                     </p>
                     <CallToAction
                         text="Contact Me"
@@ -38,8 +37,8 @@ const IntroContent = () => {
                 </div>
                 <div className="right-col">
                     <img
-                        src={girl}
-                        alt="girl"
+                        src={myself}
+                        alt="myself"
                     />
 
                     <div className="highlights horizontal">
